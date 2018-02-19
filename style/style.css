@@ -1,0 +1,140 @@
+ul{
+  list-style: none;
+}
+.clb{
+  clear: both;
+}
+/* header */
+body{
+  background-color: #fafafa;
+  margin: 0;
+}
+.fl_lt{
+  float: left;
+}
+.fl_rt{
+  float: right;
+}
+.header{
+  height:60px;
+  width: 100%;
+  background-color: #1976d2;
+}
+.menulogo{
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.logo{
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 4px 0;
+}
+.Angular_logo{
+  width: 170px;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+.Angular_logo img{
+  width: 100%;
+}
+header ul>li{
+  float: left;
+  padding: 24px 16px;
+  color: white;
+  cursor: pointer;
+}
+header ul>li:hover{
+  color:#818181;
+  cursor: pointer;
+}
+.search form input{
+  width: 180px;
+  padding: 5px;
+  border-radius: 25px;
+  margin-top: 13px;
+  margin-right: 20px;
+  transition: width 1s;
+}
+.search form input:focus{
+  width: 200px;
+}
+.left_side{
+  width: 20%;
+}
+.left_side ul{
+  width: 100%;
+  padding: 10px;
+}
+.left_side ul li{
+  padding: 5px;
+  padding-top: 8px;
+  color:grey;
+  cursor: pointer;
+}
+.left_side ul li:hover{
+  color:blue;
+}
+.right_side{
+  width: 80%;
+  padding: 30px;
+}
+.what{
+  font-size: 200%;
+  margin-bottom: 20px;
+}
+.gic{
+  height: 1px;
+  width: 100px;
+  background-color: #dbdbdb;
+  margin-bottom: 20px;
+}
+.right_side p{
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.A,.B,.C{
+  background-color: white;
+  position: relative;
+  padding-top: 15px;
+  text-align: center;
+  width: 25%;
+  height: 200px;
+  border: 1px solid gray;
+  margin-left: 25px;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(10,16,20,.24), 0 0 2px rgba(10,16,20,.12);
+  transition: box-shadow 0.8s;
+}
+.A:hover,.B:hover,.C:hover{
+  box-shadow: 0 8px 8px rgba(10,16,20,.24), 0 0 8px rgba(10,16,20,.12);
+}
+.vern{
+  font-size: 150%;
+}
+.A:hover .vern,.B:hover .vern,.C:hover .vern{
+  color:blue;
+}
+.A:hover .text,.B:hover .text,.C:hover .text{
+  color:blue;
+  background-color: #e8f1fa;
+}
+.A>p,.B>p, .C>p{
+  padding: 5px;
+  margin-top: 25px;
+}
+.text{
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-top: 1px solid grey;
+}
+
+
+/* content */
+/* footer */
